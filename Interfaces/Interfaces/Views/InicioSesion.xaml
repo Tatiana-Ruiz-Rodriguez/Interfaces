@@ -12,8 +12,8 @@
             <Entry Placeholder="Contraseña" IsPassword="True"></Entry>
             <Button Text="Ingresar"></Button>
 
-            <Label Style="{Resource labelregistro}" x:Name="lblregistro" Text="Registrarme"></Label>
-            <Label Style="{Resource labelderechos}" Text="Todos los derechos reservados"></Label>
+            <Label x:Name="lblregistro" Text="Registrarme" HorizontalOptions="End"></Label>
+            <Label Text="Todos los derechos reservados" HorizontalOptions="Center" Margin="30"></Label>
         </StackLayout> 
     
 </ContentPage>
