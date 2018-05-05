@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Interfaces.InicioSesion">
+ 
+        <StackLayout Spacing="20" Padding="20" 
+                     VerticalOptions="Center">
+
+            <Image Source="logo.png" Style="border-radius: 100"></Image>
+
+            <Entry Placeholder="Usuario"/>
+            <Entry Placeholder="Contraseña" IsPassword="True"></Entry>
+            <Button Text="Ingresar"></Button>
+
+            <Label Style="{Resource labelregistro}" x:Name="lblregistro" Text="Registrarme"></Label>
+            <Label Style="{Resource labelderechos}" Text="Todos los derechos reservados"></Label>
+        </StackLayout> 
+    
+</ContentPage>

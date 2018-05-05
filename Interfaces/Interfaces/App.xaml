@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Interfaces.App">
+	<Application.Resources>
+
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="BackgroundColor" Value="#77D065"></Setter>
+            </Style>
+
+            <Style TargetType="Image">
+                <Setter Property="HeightRequest" Value="100"></Setter>
+                <Setter Property="WidthRequest" Value="100"></Setter>
+            </Style>
+
+            <Style TargetType="Label"> 
+            </Style>
+            <Style x:Key="labelregistro" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="End"></Setter>
+            </Style>
+            <Style x:Key="labelderechos" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="Margin" Value="30"></Setter> 
+            </Style>
+            
+        </ResourceDictionary>
+
+	</Application.Resources>
+</Application>
