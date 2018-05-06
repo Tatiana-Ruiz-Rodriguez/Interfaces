@@ -10,7 +10,6 @@
         <Entry Placeholder="Nombres"/>
         <Entry Placeholder="Correo"/>
         <Entry Placeholder="Documento"/>
-        <Entry Placeholder="Algo"></Entry>
         <Entry Placeholder="Contraseña" IsPassword="True"/>
         <Button Text="Registrarme"></Button>
         <Label Text="Todos los derechos reservados" HorizontalOptions="Center" Margin="30"></Label>
