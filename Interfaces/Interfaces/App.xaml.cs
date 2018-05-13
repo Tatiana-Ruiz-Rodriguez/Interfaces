@@ -13,7 +13,7 @@ namespace Interfaces
 		{
 			InitializeComponent();
 
-			MainPage = new Interfaces.Views.RegistroPersona();
+			MainPage = new Interfaces.Views.InicioSesion();
 		}
 
 		protected override void OnStart ()
